@@ -1,0 +1,36 @@
+.radio-image {
+    border-radius: 50%;
+    border: 8px solid #f1f1f1;
+    width: 46%;
+    padding: 1.5rem;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.radio-input {
+    display: none;
+}
+
+.radio-input:checked + .radio-image {
+    border-color: #000;
+}
+
+/** 
+ * Breakpoints
+ */
+ @media (min-width: 650px)  { 
+    .radio-image { 
+        border: 14px solid #f1f1f1;
+        width: auto;
+    }
+
+    .radio-image img {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 651px)  { 
+    .radio-image img {
+        width: 100%;
+    }
+}

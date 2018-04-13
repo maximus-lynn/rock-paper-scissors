@@ -10,6 +10,10 @@ import MakeYourChoice from './components/pages/MakeYourChoice/MakeYourChoiceComp
 import Score from './components/pages/Score/ScoreComponent';
 
 class App extends Component {
+  componentWillMount() {
+    document.title = 'Rock Paper Scissors'
+  }
+
   render() {
     return (
       <section>

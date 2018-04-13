@@ -5,7 +5,10 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## How to use
 You will need to pull down the repo to your computer in your terminal using:
-```git clone https://github.com/maximus-lynn/rock-paper-scissors.git```
+`git clone https://github.com/maximus-lynn/rock-paper-scissors.git`
 
-You'll need to `cd` into `rock-paper-scissors`. 
+You'll need to `cd` into `rock-paper-scissors`.
 
+Run `npm install` once this is complete run `npm start`. 
+
+This will then open up a new tab in your browser with the react project for you to navigate through. 

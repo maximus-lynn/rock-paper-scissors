@@ -14,3 +14,9 @@
     padding: 0 2rem;
     font-size: 1.5rem;
 }
+
+@media (max-width: 651px)  { 
+    .results {
+        flex-direction: column;
+    }
+}

@@ -16,8 +16,9 @@ class MakeYourChoice extends Component {
   }  
 
   updateUrl() {
-    let choice = '/score?choice=' + document.querySelector('.radio-input:checked').value
+    let choice = '/score?choice=' + document.querySelector('.radio__input:checked').value
     this.props.history.push(choice)
+    console.log('test')
   }
 
   render() {

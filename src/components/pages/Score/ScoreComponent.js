@@ -6,13 +6,13 @@ import Results from '../../../components/atoms/Results/ResultsComponent';
 
 class Score extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
         result:'Looks like a tie'
     }
     this.options = ['rock', 'paper', 'scissors']
-    this.compsChoice;
-    this.usersChoice;
+    this.compsChoice = true;
+    this.usersChoice = true;
   }
 
   componentWillMount() {

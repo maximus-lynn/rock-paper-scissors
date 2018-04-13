@@ -5,6 +5,7 @@
     padding: 1.5rem;
     display: inline-block;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .radio-input {

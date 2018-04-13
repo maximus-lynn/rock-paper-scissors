@@ -22,7 +22,7 @@ class Score extends Component {
   calculateComputerScore() {
     // Fetch users choice from query string
     let urlParams = new URLSearchParams(window.location.search);
-
+    // Creates random number between 0 - 2
     this.compsChoice = Math.floor(Math.random() * 3)
     this.usersChoice = urlParams.get('choice')
 

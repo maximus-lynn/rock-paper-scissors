@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import './radioButton.css';
 
-
 class RadioButton extends Component {
 
     // Start the game
@@ -12,17 +11,17 @@ class RadioButton extends Component {
     }
 
     render() {
-        return (
-            <label className="radio">
-                <input type="radio" 
-                       name="radio" 
-                       value={this.props.value} 
-                       className="radio-input"
-                       onClick={this.displayStartButton} />
-                <span className="radio-image">
-                    <img src={this.props.image} alt={this.props.title} />
-                </span>            
-            </label>
+      return (
+        <label className="radio">
+          <input type="radio" 
+                 name="radio" 
+                 value={this.props.value} 
+                 className="radio__input"
+                 onClick={this.displayStartButton} />
+          <span className="radio__image">
+            <img src={this.props.image} alt={this.props.title} />
+          </span>            
+        </label>
         );
     }
 }

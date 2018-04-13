@@ -7,13 +7,13 @@ class App extends Component {
     return (
       <section className="results">
         <div>
-          <h3 className="results-heading">Your Choice</h3>
-          <img src={require(`../../../assets/${this.props.usersChoice.toLowerCase()}.png`)} alt="" className="results-image"/>
+          <h3 className="results__heading">Your Choice</h3>
+          <img src={require(`../../../assets/${this.props.usersChoice.toLowerCase()}.png`)} alt="" className="results__image"/>
         </div>
           
         <div>
-          <h3 className="results-heading">Computers Choice</h3>
-          <img src={require(`../../../assets/${this.props.compsChoice.toLowerCase()}.png`)} alt="" className="results-image"/>
+          <h3 className="results__heading">Computers Choice</h3>
+          <img src={require(`../../../assets/${this.props.compsChoice.toLowerCase()}.png`)} alt="" className="results__image"/>
         </div>
       </section>
     );
